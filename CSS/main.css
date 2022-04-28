@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.navbar {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+.column-1 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.menu {
+  height: 50px;
+  width: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.option {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  border-radius: 2px;
+  color: rgb(26, 29, 243);
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.city-name {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login {
+  height: 50px;
+  width: 120px;
+  display: flex;
+  border: none;
+  border-radius: 2px;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: #64c311;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+.caret-down {
+  height: 15px;
+  width: 15px;
+  fill: #fff;
+}
+
+.caret-down:hover {
+  cursor: pointer;
+}
+
+/* showcase */
+
+.showcase {
+  /* background-image: url("/Images/showcase child.jpg"); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.sub-showcase {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: lefft;
+  align-items: center;
+  z-index: 2;
+}
+.content {
+  height: 50%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 2px;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+}
+
+h5 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 5px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.know-more {
+  height: 50px;
+  width: 100px;
+  border: none;
+  color: #fff;
+  background-color: #64c311;
+  border-radius: 2px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* slider 2 */
+
+
+
+/* Slider */
+
+.slider {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #b2c0cb91;
+}
+
+.section-1 {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-3 {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3 h3 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 5px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.slide-image {
+    height: 80%;
+    width: 18%;
+}
+
+.slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
